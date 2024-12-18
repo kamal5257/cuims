@@ -4,22 +4,42 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 const navItems = [
   {
-    name: "Core Index"
+    name: "Academics",
+    subMenu: [
+      { name: "Submenu 1" },
+      { name: "Submenu 2" },
+      { name: "Submenu 3" }
+    ]
   },
   {
-    name: "Calendar"
+    name: "Accounts",
+    subMenu: [
+      { name: "Submenu 1" },
+      { name: "Submenu 2" },
+      { name: "Submenu 3" }
+    ]
   },
   {
-    name: "Product Flow"
+    name: "Administration",
+    subMenu: [
+      { name: "Submenu 1" },
+      { name: "Submenu 2" },
+      { name: "Submenu 3" }
+    ]
   },
   {
-    name: "Analytics"
+    name: "Admission",
+    subMenu: [
+      { name: "Submenu 1" },
+      { name: "Submenu 2" },
+      { name: "Submenu 3" }
+    ]
   },
   {
-    name: "Reminders"
+    name: "Admission Referral Form"
   },
   {
-    name: "Channels",
+    name: "Announcements",
     subMenu: [
       { name: "Channel 1" },
       { name: "Channel 2" },
@@ -28,11 +48,78 @@ const navItems = [
     ]
   },
   {
-    name: "New Chat",
+    name : "Buddy Evalution"
+  },
+  {
+    name : "Check Pearson Test"
+  },
+  {
+    name : "Club Activities"
+  },
+  {
+    name: "CO Dashboard",
     subMenu: [
-      { name: "Chat 1" },
-      { name: "Chat 2" },
-      { name: "Chat 3" }
+      { name: "Submenu 1" },
+      { name: "Submenu 2" },
+      { name: "Submenu 3" }
+    ]
+  },
+  {
+    name : "Creche Facility",
+    subMenu: [
+      { name: "Submenu 1" },
+      { name: "Submenu 2" },
+      { name: "Submenu 3" }
+    ]
+  },
+  {
+    name : "CRM",
+    subMenu: [
+      { name: "Submenu 1" },
+      { name: "Submenu 2" },
+      { name: "Submenu 3" }
+    ]
+  },
+  {
+    name : "CU IDOL",
+    subMenu: [
+      { name: "Submenu 1" },
+      { name: "Submenu 2" },
+      { name: "Submenu 3" }
+    ]
+  },
+  {
+    name : "CU OL",
+    subMenu: [
+      { name: "Submenu 1" },
+      { name: "Submenu 2" },
+      { name: "Submenu 3" },
+      { name: "Submenu 4" },
+      { name: "Submenu 5" },
+      { name: "Submenu 6" },
+      { name: "Submenu 7" },
+    ]
+  },
+  {
+    name : "Dashboard Test"
+  },
+  {
+    name : "DCPD",
+    subMenu: [
+      { name: "Submenu 1" },
+      { name: "Submenu 2" },
+      { name: "Submenu 3" },
+      { name: "Submenu 4" },
+      { name: "Submenu 5" }
+    ]
+  },
+  {
+    name : "DOP Approval",
+    subMenu: [
+      { name: "Submenu 1" },
+      { name: "Submenu 2" },
+      { name: "Submenu 3" },
+      { name: "Submenu 4" }
     ]
   }
 ];

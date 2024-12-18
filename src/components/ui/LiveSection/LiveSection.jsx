@@ -10,25 +10,86 @@ const LiveSection = () => {
     <Box
       display="flex"
       alignItems="center"
-      justifyContent="space-evenly"
+      justifyContent="space-evenly" // Ensure space is evenly distributed between icons
       border="1px solid #ccc"
-          padding="10px"
+      padding="10px"
+      sx={{
+        flexDirection: { xs: 'row', sm: 'row' }, // Align all items horizontally
+        gap: 2, // Space between icons
+        width: { xs: '91%', sm: '94%' }, // 90% width on mobile and 94% on larger screens
+        margin: '0', // Center the box
+      }}
     >
-      <Box display="flex" alignItems="center" sx={{ borderRight: '1px solid #ccc', paddingRight: 2 }}>
+      {/* Important Link */}
+      <Box 
+        display="flex" 
+        alignItems="center" 
+        sx={{ 
+          width: { xs: 'auto', sm: 'auto' }, // Width is auto to fit content
+          justifyContent: 'center',
+        }}
+      >
         <LinkIcon fontSize="small" sx={{ mr: 1 }} />
-        <Typography variant="body1">Important Link</Typography>
+        <Typography 
+          variant="body1" 
+          sx={{ display: { xs: 'none', sm: 'inline' } }}  // Hide label on mobile
+        >
+          Important Link
+        </Typography>
       </Box>
-      <Box display="flex" alignItems="center" sx={{ borderRight: '1px solid #ccc', paddingRight: 2 }}>
+
+      {/* Feedback */}
+      <Box 
+        display="flex" 
+        alignItems="center" 
+        sx={{ 
+          width: { xs: 'auto', sm: 'auto' }, 
+          justifyContent: 'center',
+        }}
+      >
         <FeedbackIcon fontSize="small" sx={{ mr: 1 }} />
-        <Typography variant="body1">Feedback</Typography>
+        <Typography 
+          variant="body1" 
+          sx={{ display: { xs: 'none', sm: 'inline' } }}  // Hide label on mobile
+        >
+          Feedback
+        </Typography>
       </Box>
-      <Box display="flex" alignItems="center" sx={{ borderRight: '1px solid #ccc', paddingRight: 2 }}>
+
+      {/* CU Live */}
+      <Box 
+        display="flex" 
+        alignItems="center" 
+        sx={{ 
+          width: { xs: 'auto', sm: 'auto' },
+          justifyContent: 'center',
+        }}
+      >
         <LiveTvIcon fontSize="small" sx={{ mr: 1 }} />
-        <Typography variant="body1">CU Live</Typography>
+        <Typography 
+          variant="body1" 
+          sx={{ display: { xs: 'none', sm: 'inline' } }}  // Hide label on mobile
+        >
+          CU Live
+        </Typography>
       </Box>
-      <Box display="flex" alignItems="center">
+
+      {/* Section */}
+      <Box 
+        display="flex" 
+        alignItems="center" 
+        sx={{ 
+          width: { xs: 'auto', sm: 'auto' },
+          justifyContent: 'center', 
+        }}
+      >
         <SearchIcon fontSize="small" sx={{ mr: 1 }} />
-        <Typography variant="body1">Section</Typography>
+        <Typography 
+          variant="body1" 
+          sx={{ display: { xs: 'none', sm: 'inline' } }}  // Hide label on mobile
+        >
+          Section
+        </Typography>
       </Box>
     </Box>
   );

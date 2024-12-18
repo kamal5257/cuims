@@ -50,7 +50,7 @@ const Header = ({ children }) => {
             }}
           >
             <SearchIcon sx={{ mr: 1 }} />
-            <InputBase placeholder="Search…" sx={{ color: 'inherit', width: '100%' }} />
+            <InputBase placeholder="Search…" sx={{ color: 'inherit', width: '500px' }} />
           </Box>
           </Box>
 
