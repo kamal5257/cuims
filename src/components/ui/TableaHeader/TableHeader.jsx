@@ -13,7 +13,7 @@ const TableHeader = ({ isViewMore, children, Icon, text, width, headerColor, tex
         padding="0 10px"
         borderBottom="1px solid #ccc"
         bgcolor={headerColor} // Set header background color from props
-        color={textColor}
+        color={textColor}        
       >
         <Box display="flex" alignItems="center">
           {/* Left Side: Icon and Text from Props */}
@@ -24,7 +24,7 @@ const TableHeader = ({ isViewMore, children, Icon, text, width, headerColor, tex
         </Box>
         {/* Right Side: View More Button */}
         {isViewMore && (
-          <Button variant="text" size="small">
+          <Button variant="text" size="small" color='#fff'>
             View More
           </Button>
         )}

@@ -23,7 +23,7 @@ const LiveSection = () => {
       {/* Important Link */}
       <Box 
         display="flex" 
-        alignItems="center" 
+        alignItems="center"         
         sx={{ 
           width: { xs: 'auto', sm: 'auto' }, // Width is auto to fit content
           justifyContent: 'center',
